@@ -1,0 +1,18 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+<div class="container">
+   <div class="region region-content">
+         <div class="panel-display panel-1col clearfix" >
+            <div class="panel-panel panel-col">
+               <div>
+                  {{ range .Paginator.Pages }}
+          	        {{ partial "node.html" . }}
+                  {{ end }}               
+               </div>
+            </div>
+         </div>
+   </div>
+</div>
+
+{{ partial "footer.html" . }}
+
