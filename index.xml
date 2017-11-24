@@ -1,13 +1,71 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Minimo</title>
+    <title>Home on Minimo</title>
     <link>http://www.example.com/</link>
-    <description>Recent content on Minimo</description>
+    <description>Recent content in Home on Minimo</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 05 Sep 2017 05:58:27 +0100</lastBuildDate>
     
 	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About Genbukan</title>
+      <link>http://www.example.com/about/about-genbukan/</link>
+      <pubDate>Tue, 05 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/about/about-genbukan/</guid>
+      <description>The art of the Ninja, the legendary shadow warriors of Japan, is the primary focus of the International Genbukan Ninpo Bugei organization headed by Grandmaster Shoto Tanemura of Matsubishi Japan. In the interests of maintaining the integrity of the ancient Ninja tradition, Grandmaster Tanemura founded the Genbukan in November of 1984. Genbukan is dedicated to the factual portrayal and teaching of the Ninja arts in the traditional Japanese manner. The curriculum in the Genbukan is centered on the teaching of the Ninpo Sanjurokkei (36 areas of training) that consists of 18 forms of traditional Japanese martial arts (Bugei Juhappan) in combination with the 18 forms of Ninpo (Ninja Juhakei).</description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>http://www.example.com/contact/contact-us/</link>
+      <pubDate>Tue, 05 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/contact/contact-us/</guid>
+      <description>Phone Mark : +356 79030609
+Phone Glenn : +356 79201680
+Email: EnshinDojo@gmail.com
+Address: 9, Triq Angelo Melilli , Żebbuġ , ZBG 2801, Malta</description>
+    </item>
+    
+    <item>
+      <title>Military &amp; Law Enforcement Seminar</title>
+      <link>http://www.example.com/events/military-and-law-enforcement-seminar/</link>
+      <pubDate>Tue, 05 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/military-and-law-enforcement-seminar/</guid>
+      <description>               &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>Training Holiday</title>
+      <link>http://www.example.com/events/training-holiday/</link>
+      <pubDate>Mon, 04 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/training-holiday/</guid>
+      <description>                 &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>KJJR</title>
+      <link>http://www.example.com/events/kjjr/</link>
+      <pubDate>Sun, 03 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/kjjr/</guid>
+      <description>                       &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>Mellieha Session - 2016</title>
+      <link>http://www.example.com/events/mellieha-session-2016/</link>
+      <pubDate>Sun, 03 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/mellieha-session-2016/</guid>
+      <description>                           &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
     
   </channel>
 </rss>

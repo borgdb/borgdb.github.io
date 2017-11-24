@@ -3,17 +3,67 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.example.com/home/</loc>
+    <lastmod>2017-09-04T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/about/</loc>
+    <lastmod>2017-09-03T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/events/</loc>
+    <lastmod>2017-09-02T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/contact/</loc>
+    <lastmod>2017-09-01T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/about/about-genbukan/</loc>
+    <lastmod>2017-09-05T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/contact/contact-us/</loc>
+    <lastmod>2017-09-05T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/</loc>
+    <lastmod>2017-09-05T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/events/military-and-law-enforcement-seminar/</loc>
+    <lastmod>2017-09-05T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/events/training-holiday/</loc>
+    <lastmod>2017-09-04T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/events/kjjr/</loc>
+    <lastmod>2017-09-03T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/events/mellieha-session-2016/</loc>
+    <lastmod>2017-09-03T05:58:27+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.example.com/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.example.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.example.com/</loc>
     <priority>0</priority>
   </url>
   

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Minimo</title>
+    <link>http://www.example.com/events/</link>
+    <description>Recent content in Events on Minimo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Sep 2017 05:58:27 +0100</lastBuildDate>
+    
+	<atom:link href="http://www.example.com/events/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Military &amp; Law Enforcement Seminar</title>
+      <link>http://www.example.com/events/military-and-law-enforcement-seminar/</link>
+      <pubDate>Tue, 05 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/military-and-law-enforcement-seminar/</guid>
+      <description>               &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>Training Holiday</title>
+      <link>http://www.example.com/events/training-holiday/</link>
+      <pubDate>Mon, 04 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/training-holiday/</guid>
+      <description>                 &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>KJJR</title>
+      <link>http://www.example.com/events/kjjr/</link>
+      <pubDate>Sun, 03 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/kjjr/</guid>
+      <description>                       &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+    <item>
+      <title>Mellieha Session - 2016</title>
+      <link>http://www.example.com/events/mellieha-session-2016/</link>
+      <pubDate>Sun, 03 Sep 2017 05:58:27 +0100</pubDate>
+      
+      <guid>http://www.example.com/events/mellieha-session-2016/</guid>
+      <description>                           &amp;lsaquo; &amp;rsaquo;  </description>
+    </item>
+    
+  </channel>
+</rss>
