@@ -1,3 +1,4 @@
 baseURL = "http://enshindojomalta.tk/"
 languageCode = "en-us"
 title = "Enshin Dojo"
+theme = "enshindojo"
