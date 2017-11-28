@@ -1,0 +1,9 @@
+{{ define "main" }}
+    {{ range .Data.Pages }}
+    <article class="clearfix">
+        <h1 class="article-title">{{ .Title }}</h1>
+
+        {{ .Content }}
+    </article>
+    {{ end }}
+{{ end }}
