@@ -1,0 +1,32 @@
+{{ $carouselId := (printf "carousel-%d" now.UnixNano) }}
+{{ $items := $.Page.Params.carousel.items }}
+<div id="{{$carouselId}}" class="carousel slide">
+    <div class="bullets-control">
+        <ol class="carousel-indicators">
+            {{ range $index, $element := $items }}
+            <li data-target="#{{$carouselId}}" data-slide-to="{{$index}}" class="bullet{{if (eq $index 0)}} active{{end}}"></li>
+            {{ end }}
+        </ol>
+    </div>
+    <div class="carousel-inner">
+        {{ range $index, $item := $items }}
+        <div class="item{{if (eq $index 0)}} active{{end}}">
+            {{ if $item.image }}
+            <img src="{{$item.image}}" alt=""/>
+            {{ else if $item.video }}
+            <div class="video-wrapper">
+                <div class="video-container">
+                    {{ $uniqeVideoId := (printf "ytplayer-%s-%s" $carouselId $item.video) }}
+                    <div class="ytplayer" id="{{$uniqeVideoId}}" data-videoid="{{$item.video}}"></div>
+                </div>
+            </div>
+            {{ end}}
+        </div>
+        {{ end }}
+    </div>
+    <!-- .carousel-inner -->
+    <!--  next and previous controls here
+       href values must reference the id for this carousel -->
+    <a class="carousel-control left" href="#{{$carouselId}}" data-slide="prev">&lsaquo;</a>
+    <a class="carousel-control right" href="#{{$carouselId}}" data-slide="next">&rsaquo;</a>
+</div>
