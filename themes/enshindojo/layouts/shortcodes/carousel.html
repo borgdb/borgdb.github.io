@@ -1,13 +1,15 @@
 {{ $carouselId := (printf "carousel-%d" now.UnixNano) }}
 {{ $items := $.Page.Params.carousel.items }}
 <div id="{{$carouselId}}" class="carousel slide">
-    <div class="bullets-control">
-        <ol class="carousel-indicators">
-            {{ range $index, $element := $items }}
-            <li data-target="#{{$carouselId}}" data-slide-to="{{$index}}" class="bullet{{if (eq $index 0)}} active{{end}}"></li>
-            {{ end }}
-        </ol>
-    </div>
+    {{ if gt (len $items) 1 }}
+        <div class="bullets-control">
+            <ol class="carousel-indicators">
+                {{ range $index, $element := $items }}
+                <li data-target="#{{$carouselId}}" data-slide-to="{{$index}}" class="bullet{{if (eq $index 0)}} active{{end}}"></li>
+                {{ end }}
+            </ol>
+        </div>
+    {{ end }}
     <div class="carousel-inner">
         {{ range $index, $item := $items }}
         <div class="item{{if (eq $index 0)}} active{{end}}">
@@ -24,9 +26,11 @@
         </div>
         {{ end }}
     </div>
-    <!-- .carousel-inner -->
-    <!--  next and previous controls here
-       href values must reference the id for this carousel -->
-    <a class="carousel-control left" href="#{{$carouselId}}" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#{{$carouselId}}" data-slide="next">&rsaquo;</a>
+    {{ if gt (len $items) 1 }}
+        <!-- .carousel-inner -->
+        <!--  next and previous controls here
+           href values must reference the id for this carousel -->
+        <a class="carousel-control left" href="#{{$carouselId}}" data-slide="prev">&lsaquo;</a>
+        <a class="carousel-control right" href="#{{$carouselId}}" data-slide="next">&rsaquo;</a>
+    {{ end }}
 </div>

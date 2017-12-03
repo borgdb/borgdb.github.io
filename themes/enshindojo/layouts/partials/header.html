@@ -1,5 +1,5 @@
 <header>
-    <div class="brand">Enshin Dojo - {{ .CurrentSection.Title }}</div>
+    <div class="brand">Enshin Dojo {{if .CurrentSection.Title}}- {{ .CurrentSection.Title }}{{end}}</div>
     <div class="address-bar">9 | Triq Angelo Melilli | Żebbuġ | ZBG 2801 | Malta</div>
     {{ partial "navbar" . }}
 </header>

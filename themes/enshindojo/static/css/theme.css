@@ -41,6 +41,19 @@ article {
     display: none;
 }
 
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+.brand-before {
+    margin: 15px 0;
+}
+.brand-name {
+    margin: 0;
+    font-size: 4em;
+    font-family: Papyrus;
+}
+
 .navbar-brand {
     text-transform: uppercase;
     font-weight: 900;
@@ -138,6 +151,25 @@ article {
     }
 }
 
+
+/* Bootstrap carousel */
+div.carousel div.carousel-caption,
+div.carousel div.carousel-caption p,
+div.carousel div.carousel-caption h1,
+div.carousel div.carousel-caption h2,
+div.carousel div.carousel-caption h3,
+div.carousel div.carousel-caption h4,
+div.carousel div.carousel-caption h5,
+div.carousel div.carousel-caption span,
+div.carousel div.carousel-caption a {
+    color: #fff;
+}
+/*div.carousel div iframe {
+  visibility:hidden;
+}
+div.carousel div.active iframe {
+  visibility:visible;
+}*/
 div.video-wrapper {
     max-width: 100%;
 }
@@ -163,4 +195,9 @@ div.video-container embed {
 .video-container {
     width: 70%;
     left: 15%;
+}
+
+.carousel-inner img {
+    margin-left: auto;
+    margin-right: auto;
 }
